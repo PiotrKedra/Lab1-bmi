@@ -24,7 +24,7 @@ class BmiInputErrorTest {
             = ActivityScenarioRule(MainActivity::class.java)
 
     @Test
-    fun leaveEmptyMassInput_clickCountBtn_displayEmptyErrorMessage() {
+    fun emptyMassInput_clickCountBtn_displayEmptyErrorMessage() {
         onView(withId(R.id.bmiBtn))
             .perform(click())
 
@@ -33,7 +33,7 @@ class BmiInputErrorTest {
     }
 
     @Test
-    fun leaveEmptyHeightInput_clickCountBtn_displayEmptyErrorMessage() {
+    fun emptyHeightInput_clickCountBtn_displayEmptyErrorMessage() {
         onView(withId(R.id.bmiBtn))
             .perform(click())
 
@@ -42,7 +42,7 @@ class BmiInputErrorTest {
     }
 
     @Before
-    fun initValidString() {
+    fun initInputString() {
         zeroString = "0"
     }
 
