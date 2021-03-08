@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="std_margin">24dp</dimen>
+    <dimen name="half_std_margin">12dp</dimen>
+    <dimen name="two_std_margin">48dp</dimen>
+    <dimen name="form_vertical_margin">28dp</dimen>
+    <dimen name="form_btn_margin">30dp</dimen>
+    <dimen name="error_margin">27dp</dimen>
+    <dimen name="small_margin">3dp</dimen>
+    <dimen name="label_margin">10dp</dimen>
+    <dimen name="input_width">100dp</dimen>
+    <dimen name="description_margin">200dp</dimen>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/data_type"
+        android:title="@string/data_type">
+        <menu>
+            <item
+                android:id="@+id/metric"
+                android:title="@string/metric" />
+            <item
+                android:id="@+id/imperial"
+                android:title="@string/imperial" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/about_author"
+        android:title="@string/about_author" />
+</menu>
